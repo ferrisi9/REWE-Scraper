@@ -1,2 +1,2 @@
-# cheese_scraper
-A python scraper to fetch produtcs from REWE online shop.
+# REWE_scraper
+A python scraper to scrape all products from REWE online shop.
