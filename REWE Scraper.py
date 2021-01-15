@@ -107,9 +107,9 @@ with open(f"Rewe_prices_{today}.csv",'w') as file:
                 ';' +
                 product['productName'] +
                 ';' +
-                str(product['_embedded']['articles'][0]['_embedded']['listing']['pricing']['currentRetailPrice']/100) +
+                str(product['_embedded']['articles'][0]['_embedded']['listing']['pricing']['currentRetailPrice']) +
                 ';' +
                 str(product['_embedded']['articles'][0]['_embedded']['listing']['pricing']['grammage']) +
-                '\n' )
+                '\n')
 
 # print(json_response['_embedded']['products'])
